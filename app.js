@@ -28,4 +28,10 @@ var cadena = 'palabraLarga';
 cadena.substring(0,5);
 var resultadoCadena = cadena;
 
+/*Ejercicio 6:Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los 
+últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring)*/
+var cadena = 'palabraLarga'
+cadena.substring(12,10);
+var resultadoCadenaa = cadena;
+
 

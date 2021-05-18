@@ -20,4 +20,12 @@ palabraTress.length;
 /*Ejercicio 4: Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en 
 mayúscula (utilizar toUpperCase). */
 var palabra = 'palabraConMasDeDiezLetras'
-palabra.toUpperCase;
+palabra.toUpperCase();
+
+/*Ejercicio 5: Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los 
+primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
+var cadena = 'palabraLarga';
+cadena.substring(0,5);
+var resultadoCadena = cadena;
+
+

@@ -7,4 +7,4 @@ Version original intentando implementar todos los conocimientos practicados hast
 - Java Script
 
 ## Link del Proyecto
-Este proyecto se encuentra en: https://jeremias284.github.io/PaginaWeb_Calzada_Jeremias/
+Este proyecto se encuentra en: https://jeremias284.github.io/Ejercicios-Java-Script/

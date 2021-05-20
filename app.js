@@ -166,7 +166,29 @@ for( var i = 0; i < arreglo.length; i ++)
       console.log(arreglo [i]);
 }
 
+/*Ejercicio 19: Al array anterior convertir la primera letra de cada palabra en mayúscula y mostrar una alerta 
+por cada palabra modificada */
 
+var arreglo= ["pato", "gato", "perro", "loro", "pez"];
+for( var i = 0; i < arreglo.length; i ++)
+{
+    cadenaNueva = cadena.substring(0,1).toUpperCase() + cadena.substring(1,4).toLowerCase()
++                cadena.substring(4,5).toUpperCase() + cadena.substring(5,8).toLowerCase()
++                cadena.substring(9,10).toUpperCase() + cadena.substring(10,13).toLowerCase()
++                 cadena.substring(14,15).toUpperCase() + cadena.substring(15,18).toLowerCase()
++                 cadena.substring(19,20).toUpperCase() + cadena.substring(20,21).toLowerCase();
+   console.log(arreglo [i]);
+}
 
+/*Ejercicio 20 Crear una variable llamada “sentence” que tenga un string vacío, luego al array del punto a) 
+recorrerlo con un bucle for para ir guardando cada palabra dentro de la variable sentence. Al 
+final mostrar una única alerta con la cadena completa*/
 
+var sentence;
+var arreglo= ["Pato", "Gato", "Perro", "Loro", "Pez"];
+for( var i = 0; i < 1; i ++)
+{
+    sentence = arreglo.slice();
+    console.log(sentence );
+}
 

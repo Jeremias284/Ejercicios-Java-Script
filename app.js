@@ -77,6 +77,11 @@ console.log(mesCinco + mesOnce);
 var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log(arreglo.sort());
 
+/*Ejercicio 12  Agregar un elemento al principio y al final del array (utilizar unshift y push).  */
+var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+arreglo.unshift('Inicio');
+arreglo.push('Fin');
+console.log(arreglo);
 
 
 

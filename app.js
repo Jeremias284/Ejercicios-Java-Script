@@ -157,6 +157,16 @@ else{
 }
 console.log(Age);
 
+/*Ejercicio 19: Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de 
+JavaScript para mostrar una alerta utilizando cada una de las palabra */
+
+var arreglo= ["Pato", "Gato", "Perro", "Loro", "Pez"];
+for( var i = 0; i < arreglo.length; i ++)
+{
+      console.log(arreglo [i]);
+}
+
+
 
 
 

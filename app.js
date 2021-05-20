@@ -40,5 +40,14 @@ var cadena = 'palabraLarga';
 cadenaNueva = cadena.substring(9,12);
 console.log(cadenaNueva);
 
+/*Ejercicio 7: Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la 
+primera letra en mayúscula y las demás en minúscula. Guardar el resultado en una nueva 
+variable (utilizar substring, toUpperCase, toLowerCase y el operador +). */
+var cadenaNueva;
+var cadena = 'palabraLarga';
+cadenaNueva = cadena.substring(0,1).toUpperCase() + cadena.substring(1,12).toLowerCase();
+console.log(cadenaNueva);
+
+
 
 

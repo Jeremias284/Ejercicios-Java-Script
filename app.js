@@ -83,6 +83,12 @@ arreglo.unshift('Inicio');
 arreglo.push('Fin');
 console.log(arreglo);
 
+/*Ejercicio 13: Quitar un elemento del principio y del final del array (utilizar shift y pop)    */
+var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+arreglo.shift();
+arreglo.pop();
+console.log(arreglo);
+
 
 
 

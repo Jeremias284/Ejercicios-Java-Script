@@ -64,6 +64,16 @@ var cadena = 'psicologia sociologia ';
 cadenaNueva = cadena.substring(0,1).toUpperCase() + cadena.substring(1,10).toLowerCase() + cadena.substring(11,12).toUpperCase() + cadena.substring(12,21).toLowerCase();
 console.log(cadenaNueva);
 
+/*Ejercicio 10: Dado el siguiente array: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", 
+"Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"] mostrar por consola los meses 5 
+y 11 (utilizar console.log)*/
+var arregloNuevo, mesCinco,mesOnce;
+var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+mesCinco = arreglo[4];
+mesOnce = arreglo[10];
+console.log(mesCinco + mesOnce);
+
+
 
 
 

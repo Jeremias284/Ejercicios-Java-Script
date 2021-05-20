@@ -26,8 +26,6 @@ var palabra = 'palabraConMasDeDiezLetras'
 console.log(palabra.toUpperCase());
 
 
-
-
 /*Ejercicio 5: Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los 
 primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
 var cadenaNueva;
@@ -35,6 +33,12 @@ var cadena = 'palabraLarga';
 cadenaNueva = cadena.substring(0,5);
 console.log(cadenaNueva);
 
+/*Ejercicio 6:Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los 
+últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring)*/
+var cadenaNueva;
+var cadena = 'palabraLarga';
+cadenaNueva = cadena.substring(9,12);
+console.log(cadenaNueva);
 
 
 

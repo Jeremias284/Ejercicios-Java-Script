@@ -94,6 +94,11 @@ var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "A
 arreglo.reverse();
 console.log(arreglo);
 
+/*Ejercicio 15: Unir todos los elementos del array en un único string donde cada mes este separado por un 
+guión - (utilizar join).*/
+var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+console.log(arreglo.join('-'));
+
 
 
 

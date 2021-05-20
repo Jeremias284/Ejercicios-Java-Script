@@ -55,6 +55,15 @@ var cadena = 'palabra larga con espacios';
 cadenaNueva = cadena.indexOf();
 console.log(cadenaNueva);
 
+/*Ejercicio 9: Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio 
+entre medio). Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que 
+tenga la primera letra de ambas palabras en mayúscula y las demás letras en minúscula (utilizar 
+indexOf, substring, toUpperCase, toLowerCase y el operador +). */
+var cadenaNueva;
+var cadena = 'psicologia sociologia ';
+cadenaNueva = cadena.substring(0,1).toUpperCase() + cadena.substring(1,10).toLowerCase() + cadena.substring(11,12).toUpperCase() + cadena.substring(12,21).toLowerCase();
+console.log(cadenaNueva);
+
 
 
 

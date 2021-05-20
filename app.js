@@ -285,3 +285,24 @@ else
     console.log('no entero');
     console.log(Math.round(suma));
 }
+/*Ejercicio 26: Convertir la validación del ejercicio 6b) en una función separada y llamarla dentro de la función 
+suma probando que todo siga funcionando igual   */
+function sumatoria(numero1, numero2)
+{
+    if(validacionNumero(numero1, numero2))
+    {
+        return suma = NaN;
+    }
+    else
+    {
+        return suma = numero1 + numero2;
+    }
+}
+
+function validacionNumero(numero1, numero2)
+{
+    if(isNaN(numero1) || isNaN(numero2))
+    {
+        return true;
+    }
+}

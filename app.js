@@ -104,6 +104,21 @@ var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "A
 var nuevo = arreglo.slice(4, 11);
 console.log(nuevo);
 
+/*Ejercicio 17:Crear un número aleatorio entre 0 y 1 utilizando la función Math.random(), si el valor es mayor 
+o igual que 0,5 mostrar una alerta con el mensaje “Greater than 0,5” y sino un alerta con el 
+mensaje “Lower than 0,5” */
+
+var numero =  Math.random();
+if (numero <= 0.5)
+{
+console.log("Lower than 0,5");
+}
+else{
+console.log("Greater than 0,5");
+}
+console.log(numero);
+
+
 
 
 

@@ -5,6 +5,7 @@ ambos números en una 3er variable.*/
  var numDos = 20;
  var numResultadoSuma = numUno + numDos ;
 
+
 /*Ejercicio 2: Crear dos variables de tipo String y concatenarlas guardando el resultado en una 3er variable.*/
 var primeraPalabra ='palabraUno';
 var segundaPalabra = 'palabraDos';
@@ -14,24 +15,26 @@ var tercerPalabra = primeraPalabra + segundaPalabra;
 guardando el resultado la suma una 3er variable (utilizar length).*/
 var palabraUnoo = 'palabraUnoo';
 var palabraDoss = 'palabraDoss';
-var palabraTress = palabraUnoo + palabraDoss;
-palabraTress.length;
+var palabraTress = palabraUnoo.length + palabraDoss.length;
+console.log(palabraTress);
+
+
 
 /*Ejercicio 4: Crear una variable de tipo string con al menos 10 caracteres y convertir todo el texto en 
 mayúscula (utilizar toUpperCase). */
 var palabra = 'palabraConMasDeDiezLetras'
-palabra.toUpperCase();
+console.log(palabra.toUpperCase());
+
+
+
 
 /*Ejercicio 5: Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los 
 primeros 5 caracteres guardando el resultado en una nueva variable (utilizar substring).*/
+var cadenaNueva;
 var cadena = 'palabraLarga';
-cadena.substring(0,5);
-var resultadoCadena = cadena;
+cadenaNueva = cadena.substring(0,5);
+console.log(cadenaNueva);
 
-/*Ejercicio 6:Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los 
-últimos 3 caracteres guardando el resultado en una nueva variable (utilizar substring)*/
-var cadena = 'palabraLarga'
-cadena.substring(12,10);
-var resultadoCadenaa = cadena;
+
 
 

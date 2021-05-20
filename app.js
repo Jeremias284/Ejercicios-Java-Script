@@ -253,3 +253,35 @@ if (numPrueba % 1 == 0)
     {
         console.log('falso');
     }
+/*Ejercicio 25:  A la función suma del ejercicio 6b) agregarle una llamada que valide que los números sean 
+enteros. En caso que haya decimales mostrar un alerta con el error y retorna el número 
+convertido a entero (redondeado).  */
+if(uno % 1 == 0)
+{
+    console.log('entero');
+} 
+else 
+{
+    console.log('no entero');
+    console.log(Math.round(uno));
+}
+
+if(dos % 1 == 0)
+{
+    console.log('entero');
+} 
+else 
+{
+    console.log('no entero');
+    console.log(Math.round(dos));
+}
+
+if(suma % 1 == 0)
+{
+    console.log('entero');
+} 
+else 
+{
+    console.log('no entero');
+    console.log(Math.round(suma));
+}

@@ -99,6 +99,11 @@ guión - (utilizar join).*/
 var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
 console.log(arreglo.join('-'));
 
+/*Ejercicio 16 Crear una copia del array de meses que contenga desde Mayo hasta Noviembre (utilizar slice). */
+var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+var nuevo = arreglo.slice(4, 11);
+console.log(nuevo);
+
 
 
 

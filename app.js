@@ -89,6 +89,11 @@ arreglo.shift();
 arreglo.pop();
 console.log(arreglo);
 
+/*Ejercicio 14: Invertir el orden del array (utilizar reverse)*/
+var arreglo= ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+arreglo.reverse();
+console.log(arreglo);
+
 
 
 
